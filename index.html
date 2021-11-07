@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Landing Page</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav>
+			<div class="container nav">
+				<div class="logo">
+					<img src="./images/Logo.png" alt="Logo" width="160" />
+				</div>
+				<div class="menu-icon" onClick="handleMenu()">
+					<div id="bar-1" class="bar"></div>
+					<div id="bar-2" class="bar"></div>
+					<div id="bar-3" class="bar"></div>
+				</div>
+				<ul class="nav-ul">
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Team</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<main>
+			<section id="banner">
+				<div class="container banner-main">
+					<div class="banner-left">
+						<h2>The best marketing software to grow your business</h2>
+						<p>
+							An enim nullam tempor sapien gravida donec enim ipsum porta justo
+							congue at pretium purus pretium ligula
+						</p>
+						<div class="banner-btn">
+							<button class="banner-btn-left">Start 15 days free trial</button>
+							<button class="banner-btn-right">
+								<img src="./images/banner/Play button.png" alt="Watch Video" />
+								<span>Watch Video</span>
+							</button>
+						</div>
+					</div>
+					<div class="banner-right">
+						<img src="./images/banner/NKL_M200_01.png" alt="Banner" />
+					</div>
+				</div>
+			</section>
+			<section id="branding">
+				<div class="banner-shape">
+					<img src="./images/banner/shape.png" alt="">
+				</div>
+
+				<div class="container branding-main">
+					<div class="brand">
+						<img src="./images/branding/1.png" alt="" class="brand-img" />
+					</div>
+					<div class="brand">
+						<img src="./images/branding/2.png" alt="" class="brand-img" />
+					</div>
+					<div class="brand">
+						<img src="./images/branding/3.png" alt="" class="brand-img" />
+					</div>
+					<div class="brand">
+						<img src="./images/branding/4.png" alt="" class="brand-img" />
+					</div>
+					<div class="brand">
+						<img src="./images/branding/5.png" alt="" class="brand-img" />
+					</div>
+					<div class="brand">
+						<img src="./images/branding/6.png" alt="" class="brand-img" />
+					</div>
+				</div>
+			</section>
+			<section id="services">
+				<div class="container">
+					<div class="service-top">
+						<h2>The most useful services for your business</h2>
+						<p>
+							An enim nullam tempor saplen gravida donec enim ipsum porta justo
+							integer at odio valna gna at pretium
+						</p>
+					</div>
+					<div class="service-bottom">
+						<div class="service-item">
+							<img
+								src="./images/service/1.png"
+								alt=""
+								class="service-item-img"
+							/>
+							<h4 class="service-item-title">Web Development</h4>
+							<p class="service-item-desc">
+								With lots of unique blocks you can easily create a page without
+								coding with Appmax easily.
+							</p>
+						</div>
+						<div class="service-item">
+							<img
+								src="./images/service/2.png"
+								alt=""
+								class="service-item-img"
+							/>
+							<h4 class="service-item-title">Mobile Apps</h4>
+							<p class="service-item-desc">
+								With lots of unique blocks you can easily create a page without
+								coding with Appmax easily.
+							</p>
+						</div>
+						<div class="service-item">
+							<img
+								src="./images/service/3.png"
+								alt=""
+								class="service-item-img"
+							/>
+							<h4 class="service-item-title">Shopify Stores</h4>
+							<p class="service-item-desc">
+								With lots of unique blocks you can easily create a page without
+								coding with Appmax easily.
+							</p>
+						</div>
+						<div class="service-item">
+							<img
+								src="./images/service/4.png"
+								alt=""
+								class="service-item-img"
+							/>
+							<h4 class="service-item-title">SASS Services</h4>
+							<p class="service-item-desc">
+								With lots of unique blocks you can easily create a page without
+								coding with Appmax easily.
+							</p>
+						</div>
+						<div class="service-item">
+							<img
+								src="./images/service/5.png"
+								alt=""
+								class="service-item-img"
+							/>
+							<h4 class="service-item-title">Best Email Templates</h4>
+							<p class="service-item-desc">
+								With lots of unique blocks you can easily create a page without
+								coding with Appmax easily.
+							</p>
+						</div>
+						<div class="service-item">
+							<img
+								src="./images/service/6.png"
+								alt=""
+								class="service-item-img"
+							/>
+							<h4 class="service-item-title">Automated Reminders</h4>
+							<p class="service-item-desc">
+								With lots of unique blocks you can easily create a page without
+								coding with Appmax easily.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="products">
+				<div class="container">
+					<div class="product-top">
+						<h2>Our Products</h2>
+						<p>See our best work here. For details click the button below</p>
+					</div>
+					<div class="product-bottom">
+						<div class="gallery-filter">
+							<div class="filter-item active" data-filter="all">
+								<img src="./images/project/icons/all.png" alt="all" />
+								<span>All</span>
+							</div>
+							<div class="filter-item" data-filter="web">
+								<img src="./images/project/icons/web.png" alt="web" />
+								<span>Web Development</span>
+							</div>
+							<div class="filter-item" data-filter="mobile">
+								<img src="./images/project/icons/mobile.png" alt="mobile" />
+								<span>Mobile Apps</span>
+							</div>
+							<div class="filter-item" data-filter="sass">
+								<img src="./images/project/icons/sass.png" alt="sass" />
+								<span>SASS Services</span>
+							</div>
+							<div class="filter-item" data-filter="shopify">
+								<img src="./images/project/icons/shopify.png" alt="shopify" />
+								<span>Shopify Store</span>
+							</div>
+						</div>
+						<div class="gallery-items">
+							<div class="gallery-item web">
+								<img
+									src="./images/project/1.png"
+									alt="project-1"
+									width="100%"
+								/>
+								<div class="project-title">
+									<h4>Skaro</h4>
+								</div>
+							</div>
+							<div class="gallery-item mobile">
+								<img
+									src="./images/project/2.png"
+									alt="project-1"
+									width="100%"
+								/>
+								<div class="project-title">
+									<h4>SocialGuru</h4>
+								</div>
+							</div>
+							<div class="gallery-item sass">
+								<img
+									src="./images/project/3.png"
+									alt="project-1"
+									width="100%"
+								/>
+								<div class="project-title">
+									<h4>Doctostudio</h4>
+								</div>
+							</div>
+							<div class="gallery-item shopify">
+								<img
+									src="./images/project/4.png"
+									alt="project-1"
+									width="100%"
+								/>
+								<div class="project-title">
+									<h4>Square Dashboard</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="teams">
+				<div class="container">
+					<div class="team-top">
+						<h2>Our Qualified team</h2>
+						<p>
+							Fully layered dolor sit amet, consectetul Facerem, nobis, id
+							expedita dolores officiis laboriosam.
+						</p>
+					</div>
+					<div class="team-bottom">
+						<div class="team-item">
+							<img src="./images/team/1.png" alt="team member" />
+							<div class="team-title">
+								<h4>Cameron Williamson</h4>
+								<p>Co-Founder</p>
+							</div>
+						</div>
+						<div class="team-item">
+							<img src="./images/team/2.png" alt="team member" />
+							<div class="team-title">
+								<h4>Brooklyn Simmons</h4>
+							<p>Project Manager</p>
+							</div>
+						</div>
+						<div class="team-item">
+							<img src="./images/team/3.png" alt="team member" />
+							<div class="team-title">
+								<h4>Robert Fox</h4>
+							<p>Web Designer</p>
+							</div>
+						</div>
+						<div class="team-item">
+							<img src="./images/team/4.png" alt="team member" />
+							<div class="team-title">
+								<h4>Esther Howard</h4>
+							<p>HR Manager</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact">
+				<div class="container">
+					<div class="contact-main">
+						<div class="contact-left">
+							<div class="contact-title">
+								<h2>Contact-Details</h2>
+							</div>
+							<div class="contact-body">
+								<div class="contact-top">
+									<h4>Office Address</h4>
+									<div class="contact-inner">
+										<div class="inner-item">
+											<i class="fas fa-map-marker-alt"></i>
+										<span>2118 Thornridge Cir. Syracuse, California 208434</span>
+										</div>
+									</div>
+								</div>
+								<div class="contact-hr"></div>
+								<div class="contact-top">
+									<h4>Contact Info</h4>
+									<div class="contact-inner">
+										<div class="inner-item">
+											<i class="fas fa-phone-alt"></i>
+											<span>+088 (246) 642-27-10</span>
+										</div>
+										<br>
+										<div class="inner-item">
+											<i class="fas fa-envelope"></i>
+											<span><a href="mailto:compamy@gmail.com">compamy@gmail.com</a></span>
+										</div>
+										<br>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="contact-right">
+							<form action="">
+								<input type="text" name="name" id="name" class="form-entry" placeholder="Enter your name*" required>
+								<input type="email" name="email" id="email" class="form-entry" placeholder="Enter your email address*" required>
+								<textarea id="message" class="form-entry" placeholder="Write your message" rows="8" col="50"></textarea>
+
+								<input type="submit" value="Send Message" id="send" class="banner-btn-left">
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="footer-top">
+					<div class="footer-side ft-item">
+						<h4><img src="./images/footer-logo.png" alt="footer-logo"></h4>
+						<br>
+						<p>There are many variations of passages of Lorem the Ipsum available but it is the majority of suffered that a alteration in that some dummy text</p>
+						<br>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+					</div>
+					<div class="footer-middle-1 ft-item">
+						<h4>Services</h4>
+						<br>
+						<p>Incident Responder</p>
+						<p>Secure Managed IT</p>
+						<p>Check website Url</p>
+						<p>Locker Security</p>
+					</div>
+					<div class="footer-middle-2 ft-item">
+						<h4>About Us</h4>
+						<br>
+						<p>Payment Plans</p>
+						<p>Make saving More</p>
+						<p>Tax Calculator</p>
+						<p>Talk To Us</p>
+					</div>
+					<div class="footer-side ft-item">
+						<h4>Our Support Download</h4>
+						<br>
+						<p>455 West Orchard Street</p>
+						<p>Kings Mountain, NC 28086</p>
+						<p>Phone: +8 (123) 985 789</p>
+						<p>Email: company@gmail.com</p>
+						<br>
+						<div class="ft-store">
+							<img src="./images/footer/App Store.png" alt="">
+							<img src="./images/footer/Play Store.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<p> &copy; 2021 Company All Rights Reserved.</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="app.js"></script>
+	</body>
+</html>
